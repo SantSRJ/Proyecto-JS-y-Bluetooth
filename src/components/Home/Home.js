@@ -2,7 +2,6 @@ import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
 import ListaCanciones from '../ListaCanciones/ListaCanciones';
 import styles from './Home.module.css';
-import { Link } from 'react-router-dom';
 import BluetoothButton from '../Bluetooth/Bluetooth';
 
 function Home() {
@@ -20,8 +19,9 @@ function Home() {
     <div className={styles.profileContainer}>
       <div className={styles.profileContent}>
         <h2 className={styles.title} >Bienvenido, {user.name}</h2>
-        <button className={styles.buttonHome} onClick={handleLogout}>Cerrar sesión</button>
-        <Link to="https://proyecto-js-y-bluetooth-jui099e8z-santsrj.vercel.app/" className={styles.buttonHome}>Back</Link>
+        <button className={styles.buttonHome} onClick={() => handleLogout({ logoutParams: { returnTo: window.location.origin } })}>
+      Log Out
+    </button>
         <BluetoothButton />
         <ListaCanciones />
 
