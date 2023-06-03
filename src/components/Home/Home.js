@@ -21,7 +21,7 @@ function Home() {
       <div className={styles.profileContent}>
         <h2 className={styles.title} >Bienvenido, {user.name}</h2>
         <button className={styles.buttonHome} onClick={handleLogout}>Cerrar sesión</button>
-        <Link to="/" className={styles.buttonHome}>Back</Link>
+        <Link to="https://proyecto-js-y-bluetooth-jui099e8z-santsrj.vercel.app/" className={styles.buttonHome}>Back</Link>
         <BluetoothButton />
         <ListaCanciones />
 
