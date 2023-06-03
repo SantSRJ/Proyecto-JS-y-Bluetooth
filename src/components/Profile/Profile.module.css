@@ -1,0 +1,36 @@
+.Profile {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgProfile {
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+}
+
+.userProfile {
+    padding: 0;
+    margin: 0;
+    width: 15rem;
+    height: 3rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}

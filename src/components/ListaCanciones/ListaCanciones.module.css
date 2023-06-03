@@ -1,0 +1,16 @@
+.songsListContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+  }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
