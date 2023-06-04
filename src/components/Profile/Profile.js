@@ -16,7 +16,7 @@ const Profile = () => {
           <h2>{user.name}</h2>
           <p>{user.email}</p>
         </div>
-        <div className={styles.imgContainer}>
+        <div>
           <img src={user.picture} alt={user.name} className={styles.imgProfile}/>
         </div>
       </div>

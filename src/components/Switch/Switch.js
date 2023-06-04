@@ -5,10 +5,10 @@ import {Routes, Route} from 'react-router-dom'
 
 const Switch = () => {
     return (
-       <Routes>
+        <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/home" element={<Home />} />
-       </Routes>
+        </Routes>
     );
 }
 
